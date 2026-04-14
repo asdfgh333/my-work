@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Minimal Beige Gallery</title>
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene background="color: #000000">
+      <!-- 相机 -->
+      <a-entity position="0 1.6 12">
+        <a-camera wasd-controls look-controls></a-camera>
+      </a-entity>
+
+      <!-- 后墙圆孔 -->
+      <a-cylinder
+        position="-6 3 -14.9"
+        radius="2.0"
+        height="0.5"
+        rotation="90 0 0"
+        color="#000000"
+      ></a-cylinder>
+      <a-cylinder
+        position="0 4 -14.9"
+        radius="1.0"
+        height="0.5"
+        rotation="90 0 0"
+        color="#000000"
+      ></a-cylinder>
+      <a-cylinder
+        position="6 2.5 -14.9"
+        radius="1.2"
+        height="0.5"
+        rotation="90 0 0"
+        color="#000000"
+      ></a-cylinder>
+
+      <!-- 左墙圆孔 -->
+      <a-cylinder
+        position="-9.9 3 -8"
+        radius="1.8"
+        height="0.6"
+        rotation="90 90 0"
+        color="#000000"
+      ></a-cylinder>
+      <a-cylinder
+        position="-9.9 4 5"
+        radius="1.2"
+        height="0.5"
+        rotation="90 90 0"
+        color="#000000"
+      ></a-cylinder>
+      <!-- 柔弱环境光 -->
+      <a-entity
+        light="type: ambient; intensity: 0.35; color: #ffffff"
+      ></a-entity>
+
+      <!-- 微弱主方向光 -->
+      <a-entity
+        light="type: directional; intensity: 0.45; color: #ffffff"
+        position="3 8 5"
+      ></a-entity>
+
+      <!-- ===== 地板 ===== -->
+      <a-plane
+        rotation="-90 0 0"
+        width="20"
+        height="30"
+        color="#f0eadf"
+      ></a-plane>
+
+      <!-- ===== 三面米白色墙 ===== -->
+      <!-- 后墙 -->
+      <a-box
+        position="0 3 -15"
+        width="20"
+        height="6"
+        depth="0.2"
+        color="#f5f1e8"
+      ></a-box>
+      <!-- 左墙 -->
+      <a-box
+        position="-10 3 0"
+        width="0.2"
+        height="6"
+        depth="30"
+        color="#f5f1e8"
+      ></a-box>
+      <!-- 右墙 -->
+      <a-box
+        position="10 3 0"
+        width="0.2"
+        height="6"
+        depth="30"
+        color="#f5f1e8"
+      ></a-box>
+
+      <!-- ===== 中央展示墙 ===== -->
+      <a-box
+        position="0 3 0"
+        width="6"
+        height="6"
+        open-ended="true"
+        color="#ebe4d8"
+      >
+      <!-- 中央圆柱展示墙上的图片 -->
+<a-image
+src="logo.jpg"
+position="0 2 2"
+width="4"
+height="3"
+rotation="0 0 0">
+</a-image>
+      </a-box>
+   
+      </a-text>
+      <!-- ===== 展台 ===== -->
+      <!-- 方形展台 -->
+      <a-box
+        position="-5 0.6 -5"
+        width="1.2"
+        height="1.2"
+        depth="1.2"
+        color="#f8f5ee"
+      ></a-box>
+
+      <a-box
+        position="4 0.6 -3"
+        width="1.4"
+        height="1.2"
+        depth="1.4"
+        color="#f8f5ee"
+      ></a-box>
+
+      <a-box
+        position="-3 0.6 6"
+        width="1.1"
+        height="1.2"
+        depth="1.1"
+        color="#f8f5ee"
+      ></a-box>
+
+      <a-box
+        position="5 0.6 8"
+        width="1.3"
+        height="1.2"
+        depth="1.3"
+        color="#f8f5ee"
+      ></a-box>
+
+      <a-box
+        position="0 0.6 9"
+        width="1.5"
+        height="1.2"
+        depth="1.5"
+        color="#f8f5ee"
+      ></a-box
+    ></a-scene>
+  </body>
+</html>
