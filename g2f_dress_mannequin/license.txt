@@ -1,0 +1,11 @@
+Model Information:
+* title:	G2F Dress Mannequin
+* source:	https://sketchfab.com/3d-models/g2f-dress-mannequin-08eadd84d8584641852295c6fd7c9c4a
+* author:	SupaRioAmateur (https://sketchfab.com/suparioamateur)
+
+Model License:
+* license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "G2F Dress Mannequin" (https://sketchfab.com/3d-models/g2f-dress-mannequin-08eadd84d8584641852295c6fd7c9c4a) by SupaRioAmateur (https://sketchfab.com/suparioamateur) licensed under CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
